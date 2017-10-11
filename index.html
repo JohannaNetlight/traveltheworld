@@ -11,18 +11,19 @@
       <div class="inputs">
         <input placeholder="Something"></input>
       </div>
-      <button class="add_option">Add</button>
+      <button class="addOption">Add</button>
     </div>
     <div class="result_section"></div>
     <button>Go!</button>
-    <script scr="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script>
       $(function() {
       $('.result_section').hide()
       var add_option = function(){
         $('.inputs').append('<input></input>')
       }
-      $('.add_option').click(add_option)
+      $('.addOption').click(add_option)
     })
     </script>
   </body>
